@@ -1,0 +1,56 @@
+#logo{
+    height: 6rem;
+    transition: transform 0.2s;
+}
+
+.nav-item{
+    transition: transform 0.2s;
+}
+
+.custom-navbar{
+    background-color: #4d4e4e;
+}
+
+
+// Hover
+
+#logo:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.nav-item:hover{
+    transform: scale(1.1);
+}
+
+.navbar {
+    background-color: #ffffff; /* Cambia el color aquí */
+    color: rgb(0, 0, 0); /* Cambia el color del texto si es necesario */
+}
+
+.navbar-nav .nav-link {
+    color: #000000; /* Cambia el color de los enlaces */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #A69C68; /* Cambia el color del texto al pasar el mouse */
+}
+
+.navbar-toggler {
+    background-color: #A69C68; /* Cambia el color del botón de colapso */
+}
+
+.dropdown-menu {
+    background-color: #A69C68; /* Cambia el fondo del menú desplegable */
+}
+
+.dropdown-item {
+    color: rgb(0, 0, 0); /* Cambia el color de los elementos del menú desplegable */
+}
+
+.dropdown-item:hover {
+    background-color: #A69C68; /* Cambia el color de fondo al pasar el mouse sobre los elementos del menú */
+}
+
+
+

@@ -1,0 +1,51 @@
+.contenido{
+    padding-top: 10rem;
+}
+
+.linea{
+    border-top: 10px solid #333; 
+    margin: 20px 0; 
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+.mapa {
+    width: 90%; /* Ancho del iframe */
+    height: 400px; /* Alto del iframe */
+    border: 2px solid #ccc; /* Puedes personalizar el borde */
+}
+
+.mapa-container {
+    display: flex; /* Habilita el uso de flexbox */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    padding-top: 2rem; /* Espacio superior */
+    padding-bottom: 2rem; /* Espacio inferior */
+}
+
+.ms-8{
+    margin-left: 5rem;
+}
+
+.img{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.contacto{
+    margin-left: 8rem;
+}
+
+.parrafo{
+    font-weight:400;
+}
+
+ul{
+    text-decoration: none;
+}
+
+.card{
+    margin-bottom: 2rem;
+    margin-right: 6rem;
+    border: 2px solid #ccc;
+    border-radius: 0%;
+}

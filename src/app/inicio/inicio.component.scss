@@ -1,0 +1,30 @@
+.tamano-imagen{
+  height: 900px;
+
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none; /* Elimina la imagen de fondo por defecto */
+}
+
+.carousel-control-prev-icon::after,
+.carousel-control-next-icon::after {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+/* Para el icono de "anterior" */
+.carousel-control-prev-icon::after {
+    border-width: 10px 15px 10px 0;
+    border-color: transparent black transparent transparent; /* Color de la flecha */
+}
+
+/* Para el icono de "siguiente" */
+.carousel-control-next-icon::after {
+    border-width: 10px 0 10px 15px;
+    border-color: transparent transparent transparent black; /* Color de la flecha */
+}

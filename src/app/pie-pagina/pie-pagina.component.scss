@@ -1,0 +1,22 @@
+#logo{
+    height: 8rem;
+    transition: transform 0.2s;
+}
+
+.navbar{
+    background-color: #343535; /* Cambia el color aquí */
+    color: white; /* Cambia el color del texto si es necesario */
+}
+
+// Hover
+
+#logo:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+
+
+
+
